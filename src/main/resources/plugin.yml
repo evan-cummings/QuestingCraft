@@ -1,0 +1,35 @@
+name: QuestingCraft
+version: '${project.version}'
+main: fletchplugins.questingcraft.QuestingCraft
+api-version: 1.21
+commands:
+  quests:
+    description: tells the player about active quests
+    usage: /quests
+  questcreate:
+    description: make a quest
+    usage: /questcreate
+  questinfo:
+    description: gives player info about a quest
+    usage: /questinfo
+  questclaim:
+    description: claim a completed quest
+    usage: /questclaim
+  flairs:
+    description: show all flairs
+    usage: /flairs
+  flairset:
+    description: set the flair
+    usage: /flairset
+  questgrant:
+    description: admin, grant a player completion of a quest
+    usage: /questgrant
+  questcreatecustom:
+    description: create a quest with a custom, non automated task
+    usage: /questcreatecustom
+  questdelete:
+    description: delete a quest
+    usage: /questdelete
+  questcheck:
+    description: check if you should be awarded a quest
+    usage: /questcheck
